@@ -1,0 +1,12 @@
+/*
+Linh Pham
+10/03/2021
+styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
