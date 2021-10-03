@@ -69,12 +69,6 @@ main p {
     color: #373684; 
     font-weight: bold;
 }
-
-#piano, #guitar, #violin {
-     width: 29%;
-     float: left;
-     margin: 0 2%;
-}
  
 #info {
     clear: left;
