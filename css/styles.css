@@ -70,11 +70,6 @@ main p {
     font-weight: bold;
 }
  
-#info {
-    clear: left;
-    background-color: #c0caf7;
-    padding: 1% 2%;
-}
 
 #contact {
     text-align: center;
