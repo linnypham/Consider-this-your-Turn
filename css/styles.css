@@ -152,7 +152,7 @@ nav li a{
 .map{
   width: 500px;
   height: 450px;
-}
+    }
 }
 
 /* Media Query for Desktop Viewport */
@@ -170,3 +170,4 @@ nav li a{
     color: #373684;
     background-color: #e5e9fc;
   }
+)
