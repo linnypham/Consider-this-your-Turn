@@ -153,6 +153,20 @@ nav li a{
   width: 500px;
   height: 450px;
 }
- }
 }
 
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 769px), print{
+  /* Desktop Viewport: Style rule for header */
+  header{
+    padding: 2%;
+  }
+  
+  /* Desktop Viewport: Style rules for nav area */
+  nav li a{
+    padding: 0.5em 1.5em 0.5em 1.5em;
+  }
+  nav li a:hover{
+    color: #373684;
+    background-color: #e5e9fc;
+  }
