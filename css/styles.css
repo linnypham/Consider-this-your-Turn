@@ -134,5 +134,25 @@ footer a {
 .tab-desk {
     display: block;
   } 
+  /* Tablet Viewport: Style rules for nav area */
+nav li {
+  border-top: none;
+  display: inline-block;
+  font-size: 1.5em;
+  border-right: 1px solid #e5e9fc;
+}
+nav li:last-child{
+  border-right: none;
+}
+nav li a{
+  padding: 0.25em 0.5em 0.25em 0.5em;
+}
+
+/* Tablet Viewport: Style rule for map */
+.map{
+  width: 500px;
+  height: 450px;
+}
+ }
 }
 
