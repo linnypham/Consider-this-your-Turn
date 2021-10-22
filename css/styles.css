@@ -125,3 +125,14 @@ footer a {
     color: #4645a8;
     text-decoration: none;
 }
+
+/* Media querry for tablet */
+@media screen and (min-width: 550px), print {
+  .mobile {
+    display: none;  
+  } 
+.tab-desk {
+    display: block;
+  } 
+}
+
