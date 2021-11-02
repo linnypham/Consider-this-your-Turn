@@ -70,7 +70,7 @@ aside{
     color: #373684;
     text-shadow: 3px 3px 10px #8280cb;
 }
-h{
+h2{
   text-decoration: underline;
   font-weight: bold;
 }
@@ -78,6 +78,10 @@ h{
 section{
   margin: 0.5em;
   padding: 0.5em;
+}
+
+section p{
+  font-style: italic;
 }
 main p {
     font-size: 1.25em;
