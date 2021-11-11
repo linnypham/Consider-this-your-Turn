@@ -36,12 +36,31 @@ Date:09/08/2021
 <!-- Use the main area to add the main content to the webpage -->
 <main>
   <section id="contact">
-    <p>Linh Hai Pham</p>
+    <h2>Linh Hai Pham</h2>
     <p class="tel-link mobile"><a href="tel:+17043801080">(704)380-1080</a></p>
     <p class="tab-desk">(704)380 -1080</p>
     <p>Email: <a href="mailto:linhppham6595@gmail.com" class="email-link">linhpham6595@gmail.com</a></p>
     <p>Location:</p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.4742396307174!2d-85.75765088466875!3d38.245305779676606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972b16be9bdf1%3A0xb8f3d3f672a1a55b!2sJefferson%20Community%20and%20Technical%20College!5e0!3m2!1sen!2sus!4v1632319661521!5m2!1sen!2sus" class="map"></iframe>
   </section>
+   <div id="form">
+    <h2>Fill out you the form below if you want to know more.</h2>
+    <form class="form-grid"><!-- Start Form -->
+    <fieldset>
+      <legend>Information</legend>
+      <label for="fName">First Name:</label>  
+      <input type="text" name="fName" id="fName">
+      <label for="lName">Last Name:</label>  
+      <input type="text" name="lName" id="lName"> 
+      <label for="email">Email:</label>  
+      <input type="email" name="email" id="email">
+      <label for="phone">Phone:</label>  
+      <input type="tel" id="phone" name="phone">
+      <label for="question">Question?</label>  
+      <textarea id="question" name="question" rows="5" cols="50"></textarea>
+    </fieldset>
+    <input type="submit"  id="submit"  value="Submit"  class="btn">
+    </form>
+  </div>
 </main>
   
 
