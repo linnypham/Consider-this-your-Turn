@@ -22,7 +22,7 @@ img {
 header {
     text-align: center;
     font-size: 2em;
-    color: #373684;
+    color: #338dff;
     font-family: 'DM Serif Display', serif;
 }
  
@@ -32,7 +32,7 @@ header h1 {
 
 /* Style rules for navigation area */
 nav {
-    background-color: #373684;
+    background-color: #338dff;
     padding: 1%;
     margin-bottom: 1%;
 }
@@ -66,8 +66,8 @@ main {
     font-family: 'Roboto', sans-serif;
 }
 aside{
-    text-align: center;
-    color: #373684;
+    text-align: left;
+    color: #338dff;
     text-shadow: 3px 3px 10px #8280cb;
 }
 h2{
@@ -94,7 +94,7 @@ main p {
 
 .action {
     font-size: 1.75em;
-    color: #373684; 
+    color: #338dff; 
     font-weight: bold;
 }
  
@@ -107,7 +107,7 @@ main p {
 }
  
 .tel-link {
-    background-color: #373684;
+    background-color: #338dff;
         padding: 2%;
         margin: 0 auto;
         width: 80%;
@@ -128,7 +128,7 @@ main p {
 }
  
 .map {
-    border: 5px solid #373684;
+    border: 5px solid #338dff;
     width: 95%;
     height: 50%;
 }
@@ -146,7 +146,7 @@ footer a {
 
 /* Style rules for table elements */
 table {
-    border: 1px solid #373684;
+    border: 1px solid #338dff;
     border-collapse: collapse;
     margin: 0 auto;
     width: 100%;
@@ -159,12 +159,12 @@ caption {
 }
  
 th, td {
-    border: 1px solid #373684;
+    border: 1px solid #338dff;
     padding: 2%; 
 }
  
 th {
-    background-color: #373684;
+    background-color: #338dff;
     color: #fff;
     font-size: 1.15em;
 }
@@ -250,7 +250,7 @@ nav li a{
     padding: 0.5em 1.5em 0.5em 1.5em;
   }
   nav li a:hover{
-    color: #373684;
+    color: #338dff;
     background-color: #e5e9fc;
   }
 
