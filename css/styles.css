@@ -43,6 +43,27 @@ nav {
 nav li:first-child{
     border-top: none;
 }
+.mobile-nav a {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 3%;
+    display: block;
+}
+ 
+.mobile-nav a.menu-icon {
+    display: block;
+    position: absolute;
+    right: 0; 
+    top: 0;  
+}
+ 
+.menu-icon div {
+    height: 50px;
+    width: 50px;
+    background-color: #373684;
+}
 /*Hide tab-desk class*/
 .tab-desk, #menu-links {
     display: none;
@@ -231,27 +252,7 @@ nav li a{
   color: #fff;
   text-decoration: none;
 }
-.mobile-nav a {
-    color: #338dff;
-    text-align: center;
-    font-size: 2em;
-    text-decoration: none;
-    padding: 3%;
-    display: block;
-}
- 
-.mobile-nav a.menu-icon {
-    display: block;
-    position: absolute;
-    right: 0; 
-    top: 0;  
-}
- 
-.menu-icon div {
-    height: 50px;
-    width: 50px;
-    background-color: #338dff;
-}
+
 
 /* Tablet Viewport: Style rule for map */
 .map{
