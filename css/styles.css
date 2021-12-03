@@ -28,6 +28,9 @@ header {
  
 header h1 {
     font-style: italic;
+    font-size: 1.5em;
+    padding: 4%;
+    margin-right: 15%;
 }
 
 /* Style rules for navigation area */
@@ -36,26 +39,13 @@ nav {
     padding: 1%;
     margin-bottom: 1%;
 }
- 
-nav ul {
-    list-style-type: none;
-    text-align: center;
-}
- 
-nav li {
-    font-size: 1.5em;
-    border-top: 1px solid #e5e9fc;
-}
- 
-nav li a {
-    display: block;
-    color: #fff;
-    padding: 0.5em 1em;
-    text-decoration: none;
-}
 
 nav li:first-child{
     border-top: none;
+}
+/*Hide tab-desk class*/
+.tab-desk, #menu-links {
+    display: none;
 }
 
 /* Style rules for main content */
@@ -205,13 +195,27 @@ form #submit{
 aside{
     grid-column: 1/span 2;
   }
-.mobile {
+.mobile, .mobile-nav {
     display: none;  
   } 
 .tab-desk {
     display: block;
   } 
+
+/* Tablet Viewport: Style rule for header content */ 
+header h1{
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+}
+span.tab-desk {
+    display: inline;
+}
   /* Tablet Viewport: Style rules for nav area */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
 nav li {
   border-top: none;
   display: inline-block;
@@ -223,6 +227,30 @@ nav li:last-child{
 }
 nav li a{
   padding: 0.25em 0.5em 0.25em 0.5em;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+.mobile-nav a {
+    color: #338dff;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 3%;
+    display: block;
+}
+ 
+.mobile-nav a.menu-icon {
+    display: block;
+    position: absolute;
+    right: 0; 
+    top: 0;  
+}
+ 
+.menu-icon div {
+    height: 50px;
+    width: 50px;
+    background-color: #338dff;
 }
 
 /* Tablet Viewport: Style rule for map */
@@ -252,6 +280,7 @@ nav li a{
   nav li a:hover{
     color: #338dff;
     background-color: #e5e9fc;
+    transform: scale(1.2);
   }
 
    /* Desktop Viewport: Style rules for table element.*/
